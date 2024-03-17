@@ -2,3 +2,9 @@ baseURL = '/'
 languageCode = 'en-us'
 title = 'Palahost'
 theme = 'mainroad'
+
+[Params.sidebar]
+  home = "right"
+  list = "right"
+  single = "right"
+  widgets = ["search", "recent", "categories", "taglist", "social", "languages"]
